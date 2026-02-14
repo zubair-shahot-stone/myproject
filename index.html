@@ -4,15 +4,335 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Bahrain Global Medical | Advanced Healthcare Solutions</title>
+    <meta name="description"
+        content="Bahrain Global Medical provides cutting-edge medical equipment and healthcare solutions worldwide.">
+    <link rel="shortcut icon" href="./heart-pulse-solid.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <div class="logo-text">Bahrain Global</div>
+            </div>
 
-    <h1>Hello, Stone is talking</h1>
-    <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, aliquid.</p>
-    <script src="./app.js"></script>
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#home" class="animate">Home</a></li>
+                    <li><a href="#about" class="animate delay-1">About</a></li>
+                    <li><a href="#services" class="animate delay-2">Services</a></li>
+                    <li><a href="#gallery" class="animate delay-3">Gallery</a></li>
+                    <li><a href="#contact" class="animate delay-4">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content animate">
+                <h1>Advanced Medical Solutions for a Healthier World</h1>
+                <p>Providing cutting-edge medical equipment and healthcare services to medical professionals worldwide
+                    with precision and reliability.</p>
+                <div>
+                    <a href="#services" class="btn">Explore Services</a>
+                    <a href="#contact" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>About Bahrain Global</h2>
+                <p>We are committed to delivering high-quality medical equipment and healthcare solutions to medical
+                    professionals worldwide.</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text animate delay-1">
+                    <h3>Our Mission</h3>
+                    <p>At Bahrain Global, we are dedicated to advancing healthcare through innovative medical solutions.
+                        Our mission is to provide healthcare professionals with the highest quality medical equipment
+                        and services that enhance patient care and improve health outcomes.</p>
+                    <p>With years of experience in the medical industry, we have built strong relationships with
+                        healthcare providers worldwide, ensuring that we understand their unique needs and challenges.
+                    </p>
+                    <p>Our commitment to excellence, innovation, and patient-centered care drives everything we do. We
+                        continuously invest in research and development to bring the latest medical technologies to the
+                        market, ensuring our clients have access to the best tools for delivering exceptional
+                        healthcare.</p>
+                </div>
+
+                <div class="about-image animate delay-2">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+                        alt="Medical equipment and professionals">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Our Medical Services</h2>
+                <p>We offer a comprehensive range of medical services designed to meet the evolving needs of healthcare
+                    providers.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card animate delay-1">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+                            alt="Medical equipment">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Medical Equipment Supply</h3>
+                        <p>We provide a wide range of high-quality medical devices and equipment, from diagnostic tools
+                            to surgical instruments, ensuring healthcare providers have access to the latest technology.
+                        </p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card animate delay-2">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+                            alt="Diagnostic tools">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <h3>Diagnostic Solutions</h3>
+                        <p>Our advanced diagnostic tools offer precise and efficient healthcare solutions, enabling
+                            accurate diagnosis and effective treatment planning for various medical conditions.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card animate delay-3">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+                            alt="Healthcare consulting">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3>Healthcare Consulting</h3>
+                        <p>Our expert consultants provide strategic guidance to optimize healthcare operations, improve
+                            patient outcomes, and implement best practices in medical facilities worldwide.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Medical Equipment Gallery</h2>
+                <p>Explore our collection of high-quality medical equipment and devices used by healthcare professionals
+                    worldwide.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item animate delay-1">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+                        alt="Medical tools">
+                    <div class="gallery-overlay">
+                        <h3>Diagnostic Equipment</h3>
+                        <p>Advanced diagnostic tools for accurate medical assessment</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate delay-2">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+                        alt="Medical devices">
+                    <div class="gallery-overlay">
+                        <h3>Medical Devices</h3>
+                        <p>Precision medical devices for surgical and therapeutic procedures</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate delay-3">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+                        alt="Healthcare professionals">
+                    <div class="gallery-overlay">
+                        <h3>Healthcare Solutions</h3>
+                        <p>Comprehensive healthcare solutions for medical facilities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item animate">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item animate delay-1">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Satisfied Clients</div>
+                </div>
+                <div class="stat-item animate delay-2">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Medical Products</div>
+                </div>
+                <div class="stat-item animate delay-3">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Service</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Contact Us</h2>
+                <p>Have questions or need more information? Reach out to our team today.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info animate delay-1">
+                    <h3>Get In Touch</h3>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Our Location</h4>
+                            <p>123 Medical Avenue, Bahrain Business District, Bahrain</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone Number</h4>
+                            <p>+973 1234 5678</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email Address</h4>
+                            <p>info@bahrain-global.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Working Hours</h4>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form animate delay-2">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Bahrain Global</h3>
+                    <p>Providing cutting-edge medical equipment and healthcare solutions to medical professionals
+                        worldwide with precision and reliability.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Medical Equipment Supply</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Diagnostic Solutions</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Healthcare Consulting</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Medical Device Repair</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Training & Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2026 Bahrain Global Medical. All rights reserved. | Designed with <i class="fas fa-heart"
+                        style="color: #e74c3c;"></i> for healthcare professionals</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
